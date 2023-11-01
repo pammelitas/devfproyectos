@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.container-1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.azul-1{
+    width: 150px;
+    height: 100vh;
+    background-color: rgb(20, 20, 133);
+    position: relative;
+    left: 250px;
+}
+
+.azul-1::after{
+    content: "";
+    position: absolute;
+    width: 104vw;
+    height: 150px;
+    background-color: rgb(20, 20, 133);
+    top: 250px;
+    left: -300px;
+}
+
+.cuadro-1{
+    background-color: red;
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    top: 0px;
+}
+
+.cuadro-2{
+    background-color: red;
+    position: absolute;
+    width: 1010px;
+    height: 220px;
+    top: 0px;
+    left: 430px;
+}
+
+.cuadro-3{
+    background-color: red;
+    position: absolute;
+    width: 220px;
+    height: 290px;
+    top: 430px;
+}
+
+.cuadro-4{
+    background-color: red;
+    position: absolute;
+    width: 1010px;
+    height: 290px;
+    top: 430px;
+    left: 430px;
+}
+

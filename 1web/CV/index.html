@@ -4,63 +4,77 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pamela Herrera | Resume</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <title>My CV | Pamela Herrera</title>
 </head>
 <body>
-    <!-- Agrega tus datos personales como nombre, apellidos, correo, etc. Incluye también tus estudios (no importa si no está relacionado con programación), habilidades, experiencia laboral, trabajo actual y hobbies. Finalmente agrega una imagen cool, puede ser una fotografía tuya o algo con lo que te identifiques.
-    Requerimientos técnicos
-    Tener un párrafo con clase 'profile-description'
-    Tener una imagen con clase 'image-profile'
-    Tener dos encabezados h2
-    Debe tener una lista no ordenada con clase 'skills'
-    Debe tener un titulo y llamarse 'Mi CV' -->
-    <header id="header" class="header">
-        <div class="main-info">
-            <img src="./imgs/pp.jpg" alt="" class="pamela">
-            <div class="data">
-                <h1 class="title">Pamela Herrera</h1>
-                <h2 class="subtitle">Graphic Designer</h2>
-            </div>
-        </div>
-    </header>
-    <main id="main" class="main">
-        <div class="container">
-        <aside id="aside" class="aside">
-            <article class="contact">
-                <h3 id="h3" class="h3-contact">Contact</h3>
-                <p class="p-contact"><span class="bold">Phone: </span>(656) 307 1288</p>
-                <p class="email"><span class="bold">E-mail: </span>pamelahd.1996@gmail.com</p>
-            </article>
-            <article class="objective">
-                <h3 id="h3" class="h3-objective">Career Objective</h3>
-                <p class="p-objective">To develop new skills and abilities in the software development field by filling a position with an established organization.</p>
-            </article>
-        </aside>
-    
-        <section id="section" class="section">
-            <div class="section-container">
-                <h3 id="h3" class="h3-work">Work Experience</h3>
-            <h4 class="work-position">Information Technologies Professor | Tecmilenio</h4>
-            <h4 class="work-year">2021</h4>
-            <ul class="work-experience">
-                <li>Provided teaching and consultation to first semester students in Python</li>
-                <li>Participated as a member of the Interdisciplinary Program Team</li>
-                <li>Mentored student's projects using Python to develop a character sequence using Ozaria platform</li>
-            </ul>
+    <main class="main-container">
 
-            <h3 id="h3" class="h3-education">Education</h3>
-            <h4 class="education-year">2022 - 2023</h4>
-            <ul class="school">
-                <li> <span>Devf.la</span> Currently enrolled in a Full Stack Web Developer Masters Degree</li>
-            </ul>
+        <section class="cv-intro">
+            <figure class="cv-picture">
+                <img src="./imgs/pamela.png" class="image-profile" alt="Profile Picture Pamela">
+            </figure>
+            <div class="texts">
+                <h1 class="cv-title">Pamela</h1>
+                <h1 class="cv-title cv-title-bold">Herrera</h1>
+                <p class="cv-position">Graphic and web designer</p>
             </div>
         </section>
-    </div>
-</div>
+
+        <div class="info">
+            <div class="one">
+                <section class="cv-info">
+                    <article class="article-container contact">
+                        <h2 class="title">Contact</h2>
+                        <div class="info-texts">
+                            <p class="location"><span class="bold">City: </span>City: Ciudad Juárez, Chih, MX.</p>
+                        <p class="phone"><span class="bold">Phone: </span>+52 656 625 7739</p>
+                        <p class="mail"><span class="bold">Mail: </span>pammelitas@gmail.com</p>
+                        <p class="website"> <span class="bold">Web: </span>pammelitas.com</p>
+                        </div>
+                    </article>
+        
+                    <article class="article-container career">
+                        <h2 class="title">Career objective</h2>
+                        <div class="info-texts">
+                        <p class="text">To develop new skills and abilities in the software development field by filling a position with an established organization.</p>
+                    </div>
+                    </article>
+                </section>
+            </div>
+            
+            <div class="two">
+                <section class="cv-info">
+                <article class="article-container work">
+                    <h2 class="title">Work experience</h2>
+                    <div class="info-texts">
+                    <h3 class="description">Information Technologies Professor | Tecmilenio</h3>
+                    <p class="years">2021 - Present</p>
+                    <ul class="unordered-list">
+                        <li>Provided teaching and consultation to first semester students in Python</li>
+                        <li>Participated as a member of the Interdisciplinary Program Team</li>
+                        <li>Mentored student's projects using Python to develop a character sequence using Ozaria platform</li>
+                    </ul>
+                </div>
+                </article>
+                <article class="article-container education">
+                <h2 class="title">Education</h2>
+                <div class="info-texts">
+                <p class="years">2022 - 2023</p>
+                <ul class="unordered-list">
+                        <li><span class="bold">Devf.la</span> Currently enrolled in a Full Stack Web Developer Masters Degree</li>
+                </ul>
+                </div>
+                </article>
+            </section>
+            </div>
+        </div>
     </main>
-    <footer id="footer" class="footer">
-        <p class="footer">Designed by pammelitas</p>
+    <footer class="footer">
+        Created by pammelitas
     </footer>
 </body>
 </html>
